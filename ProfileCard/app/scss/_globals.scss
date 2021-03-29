@@ -1,0 +1,38 @@
+body {
+  text-align: center;
+  font-size: 100%;
+  box-sizing: border-box;
+  background-color: $darkcyan;
+}
+
+.card {
+  width: 400px;
+  height: 400px;
+  background-image: url("../../images/bg-pattern-card.svg");
+  margin: 0 auto;
+  position: relative;
+  top: 50%;
+  bottom: 50%;
+}
+
+div.circle-shade-top {
+  width: 70%;
+  height: 70%;
+  position: absolute;
+  background-image: linear-gradient(#008b8b10, #008b8b);
+  left: 0px;
+  top: 0px;
+  border-radius: 100%;
+  transform: translate(-25%, -45%);
+}
+
+div.circle-shade-bottom {
+  width: 70%;
+  height: 70%;
+  position: absolute;
+  background-image: linear-gradient(#008b8b, #008b8b10);
+  right: 0px;
+  bottom: 0px;
+  border-radius: 100%;
+  transform: translate(50%, 15%);
+}
